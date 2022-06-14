@@ -6,6 +6,7 @@
 - [JavaScript Data Structures](#javascript-data-structures)
 - [JavaScript Information](#javascipt-information)
 - [JavaScript Closure](#javascript-closure)
+- [JavaScript Factory-Function](#javascript-factory-function)
 
 ## Description
 
@@ -33,11 +34,11 @@ JavaScript Data Structure
 ## JavaScript Closure
 
 - Closure is when a function is returned. It is a function which returns a function.
-- Closures are not exposed to the rest of the application. 
-- Any variables stored inside a closures lexical environment wont be available to other functions outside of this scope. This is different from global variable which are available to all functions in the program. This is good practice to avoid overriding global variables values. It also keeps the variables private due to not being accessible from everywhere. 
+- Closures are not exposed to the rest of the application.
+- Any variables stored inside a closures lexical environment wont be available to other functions outside of this scope. This is different from global variable which are available to all functions in the program. This is good practice to avoid overriding global variables values. It also keeps the variables private due to not being accessible from everywhere.
 - Example in ./Closure/closure.js
 
 ## JavaScript Factory Function
 
-- Factory Function - are function which return objects. Very similar to closure but they return an object instead of a function. 
+- Factory Function - are function which return objects. Very similar to closure but they return an object instead of a function.
 - Example in ./FactoryFunction/index.js
