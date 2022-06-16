@@ -1,0 +1,22 @@
+{
+  "name": "javascriptexplanation",
+  "version": "1.0.0",
+  "description": "## Table of Concept",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpliszka1987/JavaSctiptExplanation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rpliszka1987/JavaSctiptExplanation/issues"
+  },
+  "homepage": "https://github.com/rpliszka1987/JavaSctiptExplanation#readme",
+  "dependencies": {
+    "benchmark": "^2.1.4"
+  }
+}

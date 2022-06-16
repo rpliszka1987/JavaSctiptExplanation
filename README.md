@@ -12,6 +12,7 @@
 - [JavaScript Binary Search](#binary-search)
 - [JavaScript Recursion](#recursion)
 - [JavaScript Big-O](#big-o)
+- [JavaScript Benchmark](#benchmark)
 
 ## Description
 
@@ -62,6 +63,7 @@ JavaScript Data Structure
 ## Binary Search
 
 - A Bianry Search works by continually dividing the data in half based on weather the number you are looking for is greater or less then a chosen middle point.
+- Binary Search works only when the data is sorted.
 - Example in /Algorithms/binary.js
 
 ## Recursion
@@ -75,5 +77,19 @@ JavaScript Data Structure
 - This is used to measue how long a user might have to wait to get the data.
 
 ![big-o image](./images/300-big-o.png)
+
+- Linear Search has a growth rate of 0(n).
+- Binary Search has a growth rate of 0(log n)
+
+## Benchmark
+
+- Benchmark is act of measurering the performance of a progress.
+- Benchmark.js is a NPM library used for that purpose.
+- To install run `$ npm i benchmark`
+- To run benchamrk.js `$ node <filename>`
+- `stats.mean` tells how long to run in milliseconds.
+- You are able to run multiple tests at one time.
+- For examples check ./benchmark/index.js and ./benchmark/search.js
+- You can see from Benchmark that Binary Search is faster with large data vs Linear Search is faster with smaller data.
 
 [Back to Top](#study-javascript-computer-science)
