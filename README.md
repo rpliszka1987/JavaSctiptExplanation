@@ -13,6 +13,8 @@
 - [JavaScript Recursion](#recursion)
 - [JavaScript Big-O](#big-o)
 - [JavaScript Benchmark](#benchmark)
+- [JavaScript Bubble Sort](#bubble-sort)
+- [Javascript Quick Sort](#quick-sort)
 
 ## Description
 
@@ -91,5 +93,17 @@ JavaScript Data Structure
 - You are able to run multiple tests at one time.
 - For examples check ./benchmark/index.js and ./benchmark/search.js
 - You can see from Benchmark that Binary Search is faster with large data vs Linear Search is faster with smaller data.
+
+## Bubble Sort
+
+- Bubble Sort involves comparing 2 indexes side-by-side. Keeps swapping values until there is no more swaps left to do.
+- Bubble Sort is very time consuming after data gets larger. This is known as **Quadratic Complexity (0(n2))**
+- Example in ./Sorting/bubble.js
+
+## Quick Sort
+
+- Quick Sort makes 2 arrays and puts numbers greater then pivot point into one array and smaller then in another array. Then it continues to split those arrays into tiny arrays. At the end it takes those arrays sorted and merges them back together.
+- Quick Sort is faster the Bubble Search. Its growth rate is 0(n log n)
+- Example ./Sorting/quickSort.js
 
 [Back to Top](#study-javascript-computer-science)
