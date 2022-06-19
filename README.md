@@ -16,6 +16,7 @@
 - [JavaScript Bubble Sort](#bubble-sort)
 - [Javascript Quick Sort](#quick-sort)
 - [JavaScript Merge Sort](#merge-sort)
+- [Pseudocode](#pseudocode)
 
 ## Description
 
@@ -113,5 +114,10 @@ JavaScript Data Structure
 - **.sort()** is a built in function into JavaScript which sorts arrays for us. This has the best perfomance compare to the Bubble and Quick sort.
 - Best performance is 0(n log n)
 - Example in ./Sorting/index.js
+
+## Pseudocode
+
+- **Pseudocode** is a way you write out your code in steps which will accomplish the task we are intending to solve.
+- Example in ./Interviews/palindrone.js
 
 [Back to Top](#study-javascript-computer-science)
